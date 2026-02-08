@@ -1,0 +1,73 @@
+.left-side {
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-top: 15px;
+  
+}
+
+.home-icon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.home-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.home-text {
+  font-size: 12px;
+}
+.library-icon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.library-cotainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.library-text {
+  font-size: 12px;
+}
+.youtube-music-icon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.youtubr-music-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.music-text {
+  font-size: 12px;
+}
+.subscriptions-icon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.subscriptions-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  
+}
+.subscriptions-text {
+  font-size: 12px;
+}

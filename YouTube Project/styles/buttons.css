@@ -1,0 +1,42 @@
+<!doctype html>
+  font-family: arial;
+  
+}
+.free{
+  margin-left: 5px;
+  color: rgb(148, 145, 145);
+  font-weight: none;
+  height: 20px;
+  font-size: 14px;
+}
+.fcd{
+  font-weight: bold;
+}
+.as{
+  font-family: arial;
+  width: 500px;
+}
+.chp{
+  color: rgb(57, 126, 228);
+  cursor: pointer;
+}
+.chp:hover{
+  color: red;
+}
+.ab{
+  font-family: arial;
+}
+.click:hover{
+  color: green;
+}
+.buy{
+  background-color: rgb(56, 134, 237);
+  margin-left: 150px;
+  border-radius: 10px;
+  border-color: rgb(56, 134, 237);
+  border-style: solid;
+  cursor:pointer;
+  height: 30px;
+  width: 60;
+
+}
