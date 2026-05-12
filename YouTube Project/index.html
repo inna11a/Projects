@@ -2,73 +2,53 @@
 <html>
 
 <head>
-  <title>YouTube.com</title>
-  <link rel="stylesheet" href="YouTube-project/bodys.css">
-  <link rel="stylesheet" href="YouTube-project/header.css">
-  <link rel="stylesheet" href="YouTube-project/general.css">
-  <link rel="stylesheet" href="YouTube-project/left-side.css"> 
-
+  <title>YouTube.com Clone</title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/left-side.css">
+  <link rel="stylesheet" href="styles/bodys.css">
 </head>
 
 <body>
-
-
-  <dive class="left-side">
+  <!-- Sidebar -->
+  <div class="left-side">
     <div class="home-container">
       <img class="home-icon" src="icons/home.svg">
       <div class="home-text">Home</div>
     </div>
-
     <div class="library-cotainer">
-      <img class="library-icon" src="icons/library.svg ">
-      <div class="library-text">
-        Library
-      </div>
-
+      <img class="library-icon" src="icons/library.svg">
+      <div class="library-text">Library</div>
     </div>
     <div class="youtubr-music-container">
-      <img class="youtube-music-icon" src="icons/youtube-music.svg ">
-      <div class="music-text">
-        Music
-      </div>
+      <img class="youtube-music-icon" src="icons/youtube-music.svg">
+      <div class="music-text">Music</div>
     </div>
-
-
     <div class="subscriptions-container">
-      <img class="subscriptions-icon" src="icons/subscriptions.svg ">
-      <div class="subscriptions-text">
-        subscriptions
-      </div>
+      <img class="subscriptions-icon" src="icons/subscriptions.svg">
+      <div class="subscriptions-text">Subscriptions</div>
     </div>
+  </div>
 
-  </dive>
-
-
+  <!-- Header -->
   <div class="header">
     <div class="left-header">
       <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-      <img class="youtube-logo" src="icons/youtube-logo.svg">
+      <a href="https://www.youtube.com">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </a>
     </div>
 
-
     <div class="middel-header">
-      <input class="search-bar" type="stylesheet" placeholder=" Search">
+      <input class="search-bar" type="text" placeholder="Search">
       <button class="search-icon-container">
         <img class="search-icon" src="icons/search.svg">
-        <div class="tooltip">
-          Search
-        </div>
+        <div class="tooltip">Search</div>
       </button>
-
       <button class="voice-search-container">
         <img class="voice-search" src="icons/voice-search-icon.svg">
-        <div class="tooltip">
-          Voice Search
-        </div>
+        <div class="tooltip">Voice Search</div>
       </button>
-
-
-
     </div>
 
     <div class="right-header">
@@ -88,454 +68,56 @@
         <img class="user-profile-picture" src="images/pilot.jpg">
         <div class="tooltip">User Profile</div>
       </div>
-
     </div>
-
   </div>
 
-
+  <!-- Video Grid Section -->
   <div class="centeral-part">
-
+    <!-- Video 1: Ethiopian Airlines -->
     <div class="gird">
       <div class="image-container">
-        <img class="intro-picture" src="images/plane.jpg">
-        <div class="time">
-          12:23
+        <a href="https://www.youtube.com/watch?v=kY6fX-y_F2M">
+          <img class="intro-picture" src="images/plane.jpg">
+        </a>
+        <div class="time">12:23</div>
+      </div>
+      <div class="profile-picture-and-video-discription-container">
+        <div class="profile-picture-container">
+          <a href="https://www.youtube.com/@EthiopianAirlines">
+            <img class="profile-picture" src="images/pilot.jpg">
+          </a>
+        </div>
+        <div class="video-discription-container">
+          <p class="video-discription">
+            <a href="https://www.youtube.com/watch?v=kY6fX-y_F2M" style="text-decoration:none; color:black;">
+              Ethiopian brand new A350-1000 at Addis Ababa
+            </a>
+          </p>
+          <p class="channel-name">Ethiopian Airlines</p>
+          <p class="view">20M views · 2 months ago</p>
         </div>
       </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/pilot.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Ethiopian brand new A350-1000 at Addis Ababa, Ethiopia
-
-          </p>
-          <p class="channel-name">
-            Ethiopian Airline
-          </p>
-          <p class="view">
-            20M view 2 months ago
-          </p>
-        </dive>
-      </dive>
     </div>
 
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/abay.jpg">
-        <div class="time">
-          20:30
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/adewa.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Amazing water fall in Amhara region
-          </p>
-          <p class="channel-name">
-            Vist Ethiopia
-          </p>
-          <p class="view">
-            3.7M view . 2 days ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/adewa.jpg">
-        <div class="time">
-          1:20:10
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Celebration of Adewa victor
-          </p>
-          <p class="channel-name">
-            EBC
-          </p>
-          <p class="view">
-            250M view 2 hours ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/hamer.jpg">
-        <div class="time">
-          8:06
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Beautifull Ethiopia
-          </p>
-          <p class="channel-name">
-            Abel Brihanu
-          </p>
-          <p class="view">
-            2M view 4 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/pilot.jpg">
-        <div class="time">
-          12:50
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Pilot of the year
-          </p>
-          <p class="channel-name">
-            Zihura Tube
-          </p>
-          <p class="view">
-            2M view 5 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/plane.jpg">
-        <div class="time">
-          12:23
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/pilot.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Ethiopian brand new A350-1000 at Addis Ababa, Ethiopia
-
-          </p>
-          <p class="channel-name">
-            Ethiopian Airline
-          </p>
-          <p class="view">
-            20M view 2 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
+    <!-- Video 2: Visit Ethiopia -->
     <div class="gird">
       <div class="image-container">
         <img class="intro-picture" src="images/abay.jpg">
-        <div class="time">
-          20:30
-        </div>
+        <div class="time">20:30</div>
       </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
+      <div class="profile-picture-and-video-discription-container">
+        <div class="profile-picture-container">
           <img class="profile-picture" src="images/adewa.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Amazing water fall in Amhara region
-          </p>
-          <p class="channel-name">
-            Vist Ethiopia
-          </p>
-          <p class="view">
-            3.7M view . 2 days ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/adewa.jpg">
-        <div class="time">
-          1:20:10
+        </div>
+        <div class="video-discription-container">
+          <p class="video-discription">Amazing water fall in Amhara region</p>
+          <p class="channel-name">Visit Ethiopia</p>
+          <p class="view">3.7M views · 2 days ago</p>
         </div>
       </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Celebration of Adewa victor
-          </p>
-          <p class="channel-name">
-            EBC
-          </p>
-          <p class="view">
-            250M view 2 hours ago
-          </p>
-        </dive>
-      </dive>
     </div>
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/hamer.jpg">
-        <div class="time">
-          8:06
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Beautifull Ethiopia
-          </p>
-          <p class="channel-name">
-            Abel Brihanu
-          </p>
-          <p class="view">
-            2M view 4 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/pilot.jpg">
-        <div class="time">
-          12:50
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Pilot of the year
-          </p>
-          <p class="channel-name">
-            Zihura Tube
-          </p>
-          <p class="view">
-            2M view 5 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/plane.jpg">
-        <div class="time">
-          12:23
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/pilot.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Ethiopian brand new A350-1000 at Addis Ababa, Ethiopia
-
-          </p>
-          <p class="channel-name">
-            Ethiopian Airline
-          </p>
-          <p class="view">
-            20M view 2 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/abay.jpg">
-        <div class="time">
-          20:30
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/adewa.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Amazing water fall in Amhara region
-          </p>
-          <p class="channel-name">
-            Vist Ethiopia
-          </p>
-          <p class="view">
-            3.7M view . 2 days ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/adewa.jpg">
-        <div class="time">
-          1:20:10
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Celebration of Adewa victor
-          </p>
-          <p class="channel-name">
-            EBC
-          </p>
-          <p class="view">
-            250M view 2 hours ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/hamer.jpg">
-        <div class="time">
-          8:06
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Beautifull Ethiopia
-          </p>
-          <p class="channel-name">
-            Abel Brihanu
-          </p>
-          <p class="view">
-            2M view 4 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/pilot.jpg">
-        <div class="time">
-          12:50
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/plane.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Pilot of the year
-          </p>
-          <p class="channel-name">
-            Zihura Tube
-          </p>
-          <p class="view">
-            2M view 5 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-    <div class="gird">
-      <div class="image-container">
-        <img class="intro-picture" src="images/plane.jpg">
-        <div class="time">
-          12:23
-        </div>
-      </div>
-      <dive class="profile-picture-and-video-discription-container">
-        <dive class="profile-picture-container">
-          <img class="profile-picture" src="images/pilot.jpg">
-        </dive>
-
-        <dive class="video-discription-container">
-          <p class="video-discription">
-            Ethiopian brand new A350-1000 at Addis Ababa, Ethiopia
-
-          </p>
-          <p class="channel-name">
-            Ethiopian Airline
-          </p>
-          <p class="view">
-            20M view 2 months ago
-          </p>
-        </dive>
-      </dive>
-    </div>
-
-
-
   </div>
 
-  <p class="what">what are you looking for, this is the end.</p>
+  <p class="what">What are you looking for? This is the end.</p>
 </body>
-
 </html>
